@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:title ="Location: "
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.Spinner"
+            />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:title="Time: "
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.Spinner"
+            />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:title="Type: "
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.Spinner"
+            />
+
+        <item
+            android:title="Available: "
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.Switch" />
+
+        <item
+            android:id="@+id/nav_button"
+            android:title="Apply"
+            app:showAsAction="always"
+            app:actionViewClass="androidx.appcompat.widget.AppCompatButton"
+            />
+
+
+    </group>
+
+</menu>
